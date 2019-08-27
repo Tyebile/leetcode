@@ -13,7 +13,7 @@ public class HammingDistance {
         System.out.println(hammingDistance(1, 4));
     }
 
-    public static int hammingDistance(int x, int y) {
+    private static int hammingDistance(int x, int y) {
         int i = x ^ y;
         int count=0;
         while (i != 0) {
